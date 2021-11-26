@@ -1,0 +1,274 @@
+
+.heading
+{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-bottom: 0.5 rem;
+}
+
+.navbar{
+background: rgb(112, 10, 207);
+padding-top: 1rem;
+padding-bottom: 1rem;
+border-radius: 8px;
+}
+
+.bar{
+    display: flex; 
+    flex-direction: row;
+    color: white;
+    width: 100px;
+}
+
+.bar li{
+
+   display:flex; 
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 2px;
+    
+}
+
+.base{
+background: white;
+display:flex;
+border-top: 1rem;
+padding-top: 1rem;
+}
+
+
+.head{
+  width:70%;
+}
+
+.logo{
+  width:30%;
+}
+
+
+.dropbtn {
+    background-color: rgba(21, 180, 21, 0.945);
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .logo img{
+    width:70%;
+  }
+  
+  .dropdown {
+  
+    display: inline-block;
+    float: right;
+    padding:1rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 12px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+.search-btn img{
+  border: 3px solid green;
+  border-left: none;
+  border-bottom-right-radius:8px ;
+  border-top-right-radius: 8px;
+}
+
+  .search{
+    
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+     
+  }
+  #sea{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 300px;
+    font-size: 1.5rem;
+    padding:0.5rem;
+    color: green;
+    border: 3px solid green;
+    border-right: none;
+    outline: none;
+    float:left;
+  }
+
+  .sub{
+    background: white;
+    outline:none;
+    height:50px;
+    
+  }
+
+  .search-btn{
+    float: left;
+    height: 100px;
+    border: black;
+    margin:0px;
+  }
+
+  .start-big{
+    display:flex;
+    flex-direction: row;
+    
+  }
+
+  
+  .start-left{
+    flex-grow: 4;
+    margin:30px;
+    width:80%;
+  }
+
+  .start-child-r{
+    flex-grow: 1;
+    margin:30px;
+    width:20%;
+  }
+
+  .start-left-s{
+    margin:30px;
+  }
+  .start-left-m{
+    display:flex;
+  }
+  .start-mid-left{
+    width:70%;
+    margin:1rem;
+  }
+
+  .start-mid-right{
+    width:30%;
+    margin:1rem;
+  }
+
+  .start-left-e{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .start-end-1{
+     
+     margin:30px;
+     width:33%
+  }
+
+  .start-end-2{
+    margin:30px;
+    width: 33%;
+    
+  }
+
+  .start-end-3{
+    margin: 30px;
+    width: 33%;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+   
+   .heading{
+     flex-direction: column;
+   }
+   .head{
+     width:100%;
+   }
+   #sea{
+     width: 220px;
+   }
+   .logo{
+     width:100%;
+     text-align: center;
+   }
+    .bar{ 
+    flex-direction: column;
+    
+    }
+    .bar li{
+      text-align: center;
+      justify-content: center;
+    }
+    .start-big{
+      flex-direction: column;
+    }
+    .start-left{
+      width:100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .start-left-s{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .start-left-m{
+       flex-direction: column;
+    }
+    .start-mid-left{
+      width:100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .start-mid-right{
+      width:100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .start-left-e{
+      flex-direction: column;
+    }
+    .start-end-1{
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .start-end-2{
+      width:100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .start-end-3{
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .start-child-r{
+      width:100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+ 
+
+
+
+

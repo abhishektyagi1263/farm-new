@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hara Jeewan</title>
     <link rel="stylesheet" href="home.css">
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+       
 </head>
 <body>
-
+   
     <section class="heading">
         <div class="logo">
         <img src="main.svg"  >
@@ -23,58 +32,68 @@
      </div>
     </center>
                                                                  
-     <div class="dropdown">
-        <button class="dropbtn">Language</button> 
-        <div class="dropdown-content">
-        <a href="#">Hindi</a>
-        <a href="#">English</a>
-        <a href="#">Punjabi</a>
-        </div>
-      </div>
+    
+        <div class="dropbtn"id="google_translate_element"></div>
+      
     </div>
     </section>
-    
-    <nav class="navbar">
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        
+        <a href="">Home</a>
+        <a href="">Crop Information</a>
+        <a href="">Modern Irrigation Techniques</a>
+        <a href="">Modern Farming Techniques</a>
+        <a href="">Organic Farming</a>
+        <a href="">Crop Disease</a>
+        <a href="#contact">Government Schemes</a>
+        
+        <a href="#about">Suggestions/Feedback</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>  </div>
+    <!-- <nav class="navbar">
         <ul class="bar">
             <li>
              Home
             </li>
             <li>
-             Crop Information
+             
             </li>
             <li>
-            Modern Irrigation Techniques
+            
             </li>
             <li>
-           Modern Farming Techniques
+           
             </li>
             <li>
-           Organic Farming
+           
             </li>
             <li>
-          Crop Disease
+          
             </li>
             <li>
-        Government Schemes
+        
             </li>
             <li>
-         Suggestions/Feedback
+         
             </li>
         </ul>
-    </nav>
+    </nav> -->
  <div class="start-big">
   <div class="start-left start-child-l">
       
           hello guys
     
     <div class="start-left-s"> 
+    
+
         Every day, everyone is impacted by crop science. You may be familiar with farm fields – or fresh produce 
         from the store. Behind the scenes, crop scientists are working to make sure we have a constant, nutritious 
         food supply. They breed new crops resistant to pests and other diseases. They enhance the nutritional 
         quality and flavor of foods. They are studying crops to make sure we have food during droughts and floods, 
         heat and cold, and other weather events.  
     </div>
-
+    
       <div class="start-left-m">
     <div class="start-mid-left">
         Principle feed crops include corn, barley, wheat, and oats. Each of these crops has different properties 
@@ -141,6 +160,15 @@ field. They are joined to perpendicular pipelines with rotating nozzles. Water f
 
 
 
-
+ <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </body>
 </html>
